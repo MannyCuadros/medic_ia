@@ -1,0 +1,139 @@
+{
+    "Triage": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "C4",
+                "cantidad": 30043,
+                "porcentaje": 33.55
+            },
+            {
+                "categoria": "C5",
+                "cantidad": 29787,
+                "porcentaje": 33.27
+            },
+            {
+                "categoria": "C3",
+                "cantidad": 17566,
+                "porcentaje": 19.62
+            },
+            {
+                "categoria": "C2",
+                "cantidad": 11473,
+                "porcentaje": 12.81
+            },
+            {
+                "categoria": "C1",
+                "cantidad": 668,
+                "porcentaje": 0.75
+            }
+        ]
+    },
+    "Temperatura": {
+        "tipo": "Decimal",
+        "datos": [
+            {
+                "mínimo": 32.4,
+                "máximo": 41.0,
+                "media": 36.32,
+                "mediana": 36.3,
+                "moda": 36.0
+            }
+        ]
+    },
+    "Pulso": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 25.0,
+                "máximo": 200.0,
+                "media": 87.59,
+                "mediana": 86.0,
+                "moda": 85.0
+            }
+        ]
+    },
+    "PAS": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 51.0,
+                "máximo": 250.0,
+                "media": 131.3,
+                "mediana": 129.0,
+                "moda": 120.0
+            }
+        ]
+    },
+    "PAD": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 30.0,
+                "máximo": 150.0,
+                "media": 77.2,
+                "mediana": 77.0,
+                "moda": 74.0
+            }
+        ]
+    },
+    "SatO2": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 50.0,
+                "máximo": 100.0,
+                "media": 98.11,
+                "mediana": 99.0,
+                "moda": 99.0
+            }
+        ]
+    },
+    "Edad": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 1.0,
+                "máximo": 104.0,
+                "media": 47.35,
+                "mediana": 45.0,
+                "moda": 30.0
+            }
+        ]
+    },
+    "Sexo": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Mujer",
+                "cantidad": 49971,
+                "porcentaje": 55.81
+            },
+            {
+                "categoria": "Hombre",
+                "cantidad": 39566,
+                "porcentaje": 44.19
+            }
+        ]
+    },
+    "Destino": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Domicilio",
+                "cantidad": 70780,
+                "porcentaje": 79.05
+            },
+            {
+                "categoria": "Derivación",
+                "cantidad": 11697,
+                "porcentaje": 13.06
+            },
+            {
+                "categoria": "Hospitalización",
+                "cantidad": 7060,
+                "porcentaje": 7.89
+            }
+        ]
+    }
+}

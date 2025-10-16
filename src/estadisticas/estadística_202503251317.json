@@ -1,0 +1,294 @@
+{
+    "Sexo": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Mujer",
+                "cantidad": 49971,
+                "porcentaje": 55.81
+            },
+            {
+                "categoria": "Hombre",
+                "cantidad": 39566,
+                "porcentaje": 44.19
+            }
+        ]
+    },
+    "Temperatura": {
+        "tipo": "Decimal",
+        "datos": [
+            {
+                "mínimo": 32.4,
+                "máximo": 41.0,
+                "media": 36.32,
+                "mediana": 36.3,
+                "moda": 36.0
+            }
+        ]
+    },
+    "Temperatura_cat": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Normotermia",
+                "cantidad": 78842,
+                "porcentaje": 88.06
+            },
+            {
+                "categoria": "Hipotermia",
+                "cantidad": 7047,
+                "porcentaje": 7.87
+            },
+            {
+                "categoria": "Febrícula",
+                "cantidad": 2103,
+                "porcentaje": 2.35
+            },
+            {
+                "categoria": "Fiebre",
+                "cantidad": 1545,
+                "porcentaje": 1.73
+            }
+        ]
+    },
+    "Pulso": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 25.0,
+                "máximo": 200.0,
+                "media": 87.59,
+                "mediana": 86.0,
+                "moda": 85.0
+            }
+        ]
+    },
+    "Pulso_cat": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Normocardia",
+                "cantidad": 68796,
+                "porcentaje": 76.84
+            },
+            {
+                "categoria": "Taquicardia",
+                "cantidad": 18433,
+                "porcentaje": 20.59
+            },
+            {
+                "categoria": "Bradicardia",
+                "cantidad": 2308,
+                "porcentaje": 2.58
+            }
+        ]
+    },
+    "PAS": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 51.0,
+                "máximo": 250.0,
+                "media": 131.3,
+                "mediana": 129.0,
+                "moda": 120.0
+            }
+        ]
+    },
+    "PAS_cat": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Prehipertensión",
+                "cantidad": 31576,
+                "porcentaje": 35.27
+            },
+            {
+                "categoria": "Normal",
+                "cantidad": 29012,
+                "porcentaje": 32.4
+            },
+            {
+                "categoria": "Hipertensión",
+                "cantidad": 27460,
+                "porcentaje": 30.67
+            },
+            {
+                "categoria": "Hipotensión",
+                "cantidad": 1489,
+                "porcentaje": 1.66
+            }
+        ]
+    },
+    "PAD": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 30.0,
+                "máximo": 150.0,
+                "media": 77.2,
+                "mediana": 77.0,
+                "moda": 74.0
+            }
+        ]
+    },
+    "PAD_cat": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Normal",
+                "cantidad": 43002,
+                "porcentaje": 48.03
+            },
+            {
+                "categoria": "Hipertensión",
+                "cantidad": 18140,
+                "porcentaje": 20.26
+            },
+            {
+                "categoria": "Prehipertensión",
+                "cantidad": 17309,
+                "porcentaje": 19.33
+            },
+            {
+                "categoria": "Hipotensión",
+                "cantidad": 11086,
+                "porcentaje": 12.38
+            }
+        ]
+    },
+    "SatO2": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 50.0,
+                "máximo": 100.0,
+                "media": 98.11,
+                "mediana": 99.0,
+                "moda": 99.0
+            }
+        ]
+    },
+    "SatO2_cat": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Normal",
+                "cantidad": 86179,
+                "porcentaje": 96.25
+            },
+            {
+                "categoria": "Hipoxemia leve",
+                "cantidad": 2370,
+                "porcentaje": 2.65
+            },
+            {
+                "categoria": "Hipoxemia moderada",
+                "cantidad": 541,
+                "porcentaje": 0.6
+            },
+            {
+                "categoria": "Hipoxemia severa",
+                "cantidad": 447,
+                "porcentaje": 0.5
+            }
+        ]
+    },
+    "Edad": {
+        "tipo": "Entero",
+        "datos": [
+            {
+                "mínimo": 1.0,
+                "máximo": 104.0,
+                "media": 47.35,
+                "mediana": 45.0,
+                "moda": 30.0
+            }
+        ]
+    },
+    "Edad_cat": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Adulto medio",
+                "cantidad": 37402,
+                "porcentaje": 41.77
+            },
+            {
+                "categoria": "Adulto joven",
+                "cantidad": 25423,
+                "porcentaje": 28.39
+            },
+            {
+                "categoria": "Adulto mayor",
+                "cantidad": 20308,
+                "porcentaje": 22.68
+            },
+            {
+                "categoria": "Adolescente",
+                "cantidad": 6308,
+                "porcentaje": 7.05
+            },
+            {
+                "categoria": "Infante",
+                "cantidad": 88,
+                "porcentaje": 0.1
+            },
+            {
+                "categoria": "Lactante",
+                "cantidad": 8,
+                "porcentaje": 0.01
+            }
+        ]
+    },
+    "Triage": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "C4",
+                "cantidad": 30043,
+                "porcentaje": 33.55
+            },
+            {
+                "categoria": "C5",
+                "cantidad": 29787,
+                "porcentaje": 33.27
+            },
+            {
+                "categoria": "C3",
+                "cantidad": 17566,
+                "porcentaje": 19.62
+            },
+            {
+                "categoria": "C2",
+                "cantidad": 11473,
+                "porcentaje": 12.81
+            },
+            {
+                "categoria": "C1",
+                "cantidad": 668,
+                "porcentaje": 0.75
+            }
+        ]
+    },
+    "Destino": {
+        "tipo": "Categórico",
+        "datos": [
+            {
+                "categoria": "Domicilio",
+                "cantidad": 70780,
+                "porcentaje": 79.05
+            },
+            {
+                "categoria": "Derivación",
+                "cantidad": 11697,
+                "porcentaje": 13.06
+            },
+            {
+                "categoria": "Hospitalización",
+                "cantidad": 7060,
+                "porcentaje": 7.89
+            }
+        ]
+    }
+}

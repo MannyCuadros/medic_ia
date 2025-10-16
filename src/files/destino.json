@@ -1,0 +1,14 @@
+[
+    {
+        "ID":"U0003670130",
+        "Sexo":"Mujer",
+        "Temperatura":36.5,
+        "Pulso":88.0,
+        "PAS":102.0,
+        "PAD":49.0,
+        "SatO2":98.0,
+        "Edad":49,
+        "Triaje":"C4",
+        "Destino":"Domicilio"
+    }
+]

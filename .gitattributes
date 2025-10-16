@@ -1,0 +1,2 @@
+src/databases/Datos[[:space:]]HACQ[[:space:]](Ampliada)[[:space:]]-[[:space:]]AG.csv filter=lfs diff=lfs merge=lfs -text
+src/databases/Datos[[:space:]]HACQ[[:space:]](Ampliada)[[:space:]]-[[:space:]]AG.xlsx filter=lfs diff=lfs merge=lfs -text

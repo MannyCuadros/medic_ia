@@ -1,0 +1,37 @@
+{
+    "pacientes": [
+        {
+            "ID": "U0003670130",
+            "Sexo": "Mujer",
+            "Temperatura": 36.5,
+            "Pulso": 88.0,
+            "PAS": 102.0,
+            "PAD": 49.0,
+            "SatO2": 98.0,
+            "Edad": 75.0,
+            "Triage": "C3"
+        },
+        {
+            "ID": "U0003678475",
+            "Sexo": "hombre",
+            "Temperatura": 39.5,
+            "Pulso": 108.0,
+            "PAS": 102.0,
+            "PAD": 60.0,
+            "SatO2": 30.0,
+            "Edad": 59,
+            "Triage": "C2"
+        },
+        {
+            "ID": "U0003679758",
+            "Sexo": "hombre",
+            "Temperatura": 36.59,
+            "Pulso": 80.0,
+            "PAS": 128.0,
+            "PAD": 57.0,
+            "SatO2": 99.0,
+            "Edad": 70
+        }
+    ]
+
+}

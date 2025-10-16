@@ -1,0 +1,163 @@
+{
+    "Sexo": [
+        {
+            "categoria": "Mujer",
+            "cantidad": 49971,
+            "porcentaje": 55.81
+        },
+        {
+            "categoria": "Hombre",
+            "cantidad": 39566,
+            "porcentaje": 44.19
+        }
+    ],
+    "Temperatura": [
+        {
+            "categoria": "Normotermia",
+            "cantidad": 78842,
+            "porcentaje": 88.055
+        },
+        {
+            "categoria": "Hipotermia",
+            "cantidad": 7047,
+            "porcentaje": 7.87
+        },
+        {
+            "categoria": "Febrícula",
+            "cantidad": 2103,
+            "porcentaje": 2.349
+        },
+        {
+            "categoria": "Fiebre",
+            "cantidad": 1545,
+            "porcentaje": 1.726
+        }
+    ],
+    "Pulso": [
+        {
+            "categoria": "Normocardia",
+            "cantidad": 68796,
+            "porcentaje": 76.835
+        },
+        {
+            "categoria": "Taquicardia",
+            "cantidad": 18433,
+            "porcentaje": 20.587
+        },
+        {
+            "categoria": "Bradicardia",
+            "cantidad": 2308,
+            "porcentaje": 2.578
+        }
+    ],
+    "PAS": [
+        {
+            "categoria": "Prehipertensión",
+            "cantidad": 31576,
+            "porcentaje": 35.266
+        },
+        {
+            "categoria": "Normal",
+            "cantidad": 29012,
+            "porcentaje": 32.402
+        },
+        {
+            "categoria": "Hipertensión",
+            "cantidad": 27460,
+            "porcentaje": 30.669
+        },
+        {
+            "categoria": "Hipotensión",
+            "cantidad": 1489,
+            "porcentaje": 1.663
+        }
+    ],
+    "PAD": [
+        {
+            "categoria": "Normal",
+            "cantidad": 43002,
+            "porcentaje": 48.027
+        },
+        {
+            "categoria": "Hipertensión",
+            "cantidad": 18140,
+            "porcentaje": 20.26
+        },
+        {
+            "categoria": "Prehipertensión",
+            "cantidad": 17309,
+            "porcentaje": 19.332
+        },
+        {
+            "categoria": "Hipotensión",
+            "cantidad": 11086,
+            "porcentaje": 12.381
+        }
+    ],
+    "SatO2": [
+        {
+            "categoria": "Normal",
+            "cantidad": 86179,
+            "porcentaje": 96.25
+        },
+        {
+            "categoria": "Hipoxemia leve",
+            "cantidad": 2370,
+            "porcentaje": 2.647
+        },
+        {
+            "categoria": "Hipoxemia moderada",
+            "cantidad": 541,
+            "porcentaje": 0.604
+        },
+        {
+            "categoria": "Hipoxemia severa",
+            "cantidad": 447,
+            "porcentaje": 0.499
+        }
+    ],
+    "Triage": [
+        {
+            "categoria": "C4",
+            "cantidad": 30043,
+            "porcentaje": 33.554
+        },
+        {
+            "categoria": "C5",
+            "cantidad": 29787,
+            "porcentaje": 33.268
+        },
+        {
+            "categoria": "C3",
+            "cantidad": 17566,
+            "porcentaje": 19.619
+        },
+        {
+            "categoria": "C2",
+            "cantidad": 11473,
+            "porcentaje": 12.814
+        },
+        {
+            "categoria": "C1",
+            "cantidad": 668,
+            "porcentaje": 0.746
+        }
+    ],
+    "Destino": [
+        {
+            "categoria": "Domicilio",
+            "cantidad": 70780,
+            "porcentaje": 79.051
+        },
+        {
+            "categoria": "Derivación",
+            "cantidad": 11697,
+            "porcentaje": 13.064
+        },
+        {
+            "categoria": "Hospitalización",
+            "cantidad": 7060,
+            "porcentaje": 7.885
+        }
+    ]
+}

@@ -1,0 +1,322 @@
+XGBoot (con los parametros de LightGBM)
+
+------------------------------------Entrenamiento-----------------------------------
+Éxito: Archivo 'basedatos_202503251345.csv' leído correctamente
+Iniciando entrenamiento...
+Entrenamiento concluido con éxito:
+
+------------------------------Resultado Entrenamiento-------------------------------
+Mejores hiperparámetros:
+classifier__gamma -> 0.1
+classifier__learning_rate -> 0.1
+classifier__max_depth -> 5
+classifier__n_estimators -> 200
+classifier__subsample -> 0.8
+----------------------------------------------------------
+Características importantes
+                         feature  importance
+34                cat__Triage_C2    0.386693
+35                cat__Triage_C3    0.164091
+37                cat__Triage_C5    0.116327
+33                cat__Triage_C1    0.086292
+36                cat__Triage_C4    0.081488
+27     cat__Edad_cat_Adolescente    0.014161
+30    cat__Edad_cat_Adulto medio    0.011626
+4                     num__SatO2    0.011381
+21           cat__PAD_cat_Normal    0.009907
+28    cat__Edad_cat_Adulto joven    0.009477
+5                      num__Edad    0.008762
+6               cat__Sexo_Hombre    0.008696
+2                       num__PAS    0.008314
+18  cat__PAS_cat_Prehipertensión    0.007924
+3                       num__PAD    0.007851
+----------------------------------------------------------
+Reporte de clasificación
+                 precision    recall  f1-score   support
+
+     Derivación       0.47      0.64      0.54      3550
+      Domicilio       0.94      0.88      0.91     21242
+Hospitalización       0.64      0.63      0.64      2070
+
+       accuracy                           0.83     26862
+      macro avg       0.68      0.72      0.70     26862
+   weighted avg       0.85      0.83      0.84     26862
+
+----------------------------------------------------------
+Matriz de Confusión:
+[[ 2276   942   332]
+ [ 2118 18737   387]
+ [  498   267  1305]]
+----------------------------------------------------------
+
+------------------------------Resultado Entrenamiento-------------------------------
+Mejores hiperparámetros:
+classifier__learning_rate -> 0.2
+classifier__max_depth -> -1
+classifier__n_estimators -> 300
+classifier__num_leaves -> 50
+----------------------------------------------------------
+Características importantes
+             feature  importance
+2           num__PAS        7557
+1         num__Pulso        7554
+5          num__Edad        7549
+3           num__PAD        7224
+0   num__Temperatura        6127
+4         num__SatO2        4397
+6   cat__Sexo_Hombre         912
+9     cat__Triage_C2         893
+10    cat__Triage_C3         645
+11    cat__Triage_C4         605
+12    cat__Triage_C5         262
+7    cat__Sexo_Mujer         246
+8     cat__Triage_C1         129
+----------------------------------------------------------
+Reporte de clasificación
+                 precision    recall  f1-score   support
+
+     Derivación       0.77      0.81      0.79      3509
+      Domicilio       0.97      0.95      0.96     21235
+Hospitalización       0.79      0.87      0.83      2118
+
+       accuracy                           0.92     26862
+      macro avg       0.84      0.88      0.86     26862
+   weighted avg       0.93      0.92      0.93     26862
+
+----------------------------------------------------------
+Matriz de Confusión:
+[[ 2835   542   132]
+ [  731 20162   342]
+ [  115   165  1838]]
+----------------------------------------------------------
+
+XGBoost (primer entrenamiento)
+
+------------------------------------Entrenamiento-----------------------------------
+Éxito: Archivo 'basedatos_202503251345.csv' leído correctamente
+Iniciando entrenamiento...
+Entrenamiento concluido con éxito en 154.199901 segundos:
+
+------------------------------Resultado Entrenamiento-------------------------------
+Mejores hiperparámetros:
+classifier__gamma -> 0.1
+classifier__learning_rate -> 0.1
+classifier__max_depth -> 5
+classifier__n_estimators -> 300
+classifier__subsample -> 0.8
+----------------------------------------------------------
+Características importantes
+             feature  importance
+9     cat__Triage_C2    0.365837
+12    cat__Triage_C5    0.160778
+10    cat__Triage_C3    0.155819
+8     cat__Triage_C1    0.115634
+11    cat__Triage_C4    0.106733
+0   num__Temperatura    0.035102
+4         num__SatO2    0.013331
+5          num__Edad    0.010189
+2           num__PAS    0.009719
+6   cat__Sexo_Hombre    0.009149
+3           num__PAD    0.008922
+1         num__Pulso    0.008788
+7    cat__Sexo_Mujer    0.000000
+----------------------------------------------------------
+Reporte de clasificación
+                 precision    recall  f1-score   support
+
+     Derivación       0.72      0.65      0.69      3550
+      Domicilio       0.94      0.97      0.95     21242
+Hospitalización       0.72      0.63      0.67      2070
+
+       accuracy                           0.90     26862
+      macro avg       0.80      0.75      0.77     26862
+   weighted avg       0.90      0.90      0.90     26862
+
+----------------------------------------------------------
+Matriz de Confusión:
+[[ 2323   965   262]
+ [  448 20557   237]
+ [  441   324  1305]]
+----------------------------------------------------------
+
+LightGBM (sin SMOTE)
+
+Entrenamiento concluido con éxito en 124.684544 segundos:
+
+------------------------------Resultado Entrenamiento-------------------------------
+Mejores hiperparámetros:
+classifier__learning_rate -> 0.2
+classifier__max_depth -> -1
+classifier__n_estimators -> 300
+classifier__num_leaves -> 50
+----------------------------------------------------------
+Características importantes
+             feature  importance
+2           num__PAS        8211
+5          num__Edad        8197
+1         num__Pulso        7910
+3           num__PAD        7592
+0   num__Temperatura        5328
+4         num__SatO2        3528
+9     cat__Triage_C2         887
+6   cat__Sexo_Hombre         732
+10    cat__Triage_C3         603
+11    cat__Triage_C4         555
+7    cat__Sexo_Mujer         220
+12    cat__Triage_C5         213
+8     cat__Triage_C1         124
+----------------------------------------------------------
+Reporte de clasificación
+                 precision    recall  f1-score   support
+
+     Derivación       0.73      0.85      0.79      3509
+      Domicilio       0.97      0.93      0.95     21235
+Hospitalización       0.79      0.90      0.84      2118
+
+       accuracy                           0.92     26862
+      macro avg       0.83      0.90      0.86     26862
+   weighted avg       0.93      0.92      0.92     26862
+
+----------------------------------------------------------
+Matriz de Confusión:
+[[ 2987   399   123]
+ [ 1013 19838   384]
+ [   92   113  1913]]
+----------------------------------------------------------
+
+LightBGM (con SMOTE y sparse_to_dense_transformer)
+
+Entrenamiento concluido con éxito en 199.162851 segundos:
+
+------------------------------Resultado Entrenamiento-------------------------------
+Mejores hiperparámetros:
+classifier__learning_rate -> 0.2
+classifier__max_depth -> -1
+classifier__n_estimators -> 300
+classifier__num_leaves -> 50
+----------------------------------------------------------
+Características importantes
+             feature  importance
+2           num__PAS        7557
+1         num__Pulso        7554
+5          num__Edad        7549
+3           num__PAD        7224
+0   num__Temperatura        6127
+4         num__SatO2        4397
+6   cat__Sexo_Hombre         912
+9     cat__Triage_C2         893
+10    cat__Triage_C3         645
+11    cat__Triage_C4         605
+12    cat__Triage_C5         262
+7    cat__Sexo_Mujer         246
+8     cat__Triage_C1         129
+----------------------------------------------------------
+Reporte de clasificación
+                 precision    recall  f1-score   support
+
+     Derivación       0.77      0.81      0.79      3509
+      Domicilio       0.97      0.95      0.96     21235
+Hospitalización       0.79      0.87      0.83      2118
+
+       accuracy                           0.92     26862
+      macro avg       0.84      0.88      0.86     26862
+   weighted avg       0.93      0.92      0.93     26862
+
+----------------------------------------------------------
+Matriz de Confusión:
+[[ 2835   542   132]
+ [  731 20162   342]
+ [  115   165  1838]]
+----------------------------------------------------------
+
+LightGBM (con SMOTE sin sparse_to_dense_transformer)
+
+Entrenamiento concluido con éxito en 198.051329 segundos:
+
+------------------------------Resultado Entrenamiento-------------------------------
+Mejores hiperparámetros:
+classifier__learning_rate -> 0.2
+classifier__max_depth -> -1
+classifier__n_estimators -> 300
+classifier__num_leaves -> 50
+----------------------------------------------------------
+Características importantes
+             feature  importance
+2           num__PAS        7557
+1         num__Pulso        7554
+5          num__Edad        7549
+3           num__PAD        7224
+0   num__Temperatura        6127
+4         num__SatO2        4397
+6   cat__Sexo_Hombre         912
+9     cat__Triage_C2         893
+10    cat__Triage_C3         645
+11    cat__Triage_C4         605
+12    cat__Triage_C5         262
+7    cat__Sexo_Mujer         246
+8     cat__Triage_C1         129
+----------------------------------------------------------
+Reporte de clasificación
+                 precision    recall  f1-score   support
+
+     Derivación       0.77      0.81      0.79      3509
+      Domicilio       0.97      0.95      0.96     21235
+Hospitalización       0.79      0.87      0.83      2118
+
+       accuracy                           0.92     26862
+      macro avg       0.84      0.88      0.86     26862
+   weighted avg       0.93      0.92      0.93     26862
+
+----------------------------------------------------------
+Matriz de Confusión:
+[[ 2835   542   132]
+ [  731 20162   342]
+ [  115   165  1838]]
+----------------------------------------------------------
+
+LighGBM (con SMOTENC con sparse_to_dense_transformer)
+
+Entrenamiento concluido con éxito en 281.207767 segundos:
+
+C:\Users\PC\AppData\Roaming\Python\Python312\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+------------------------------Resultado Entrenamiento-------------------------------
+Mejores hiperparámetros:
+classifier__learning_rate -> 0.2
+classifier__max_depth -> -1
+classifier__n_estimators -> 300
+classifier__num_leaves -> 50
+----------------------------------------------------------
+Características importantes
+             feature  importance
+1         num__Pulso        7704
+5          num__Edad        7631
+2           num__PAS        7420
+3           num__PAD        7196
+0   num__Temperatura        6147
+4         num__SatO2        4439
+9     cat__Triage_C2         901
+6   cat__Sexo_Hombre         838
+10    cat__Triage_C3         640
+11    cat__Triage_C4         605
+12    cat__Triage_C5         257
+7    cat__Sexo_Mujer         209
+8     cat__Triage_C1         113
+----------------------------------------------------------
+Reporte de clasificación
+                 precision    recall  f1-score   support
+
+     Derivación       0.78      0.81      0.80      3509
+      Domicilio       0.97      0.95      0.96     21235
+Hospitalización       0.79      0.87      0.83      2118
+
+       accuracy                           0.93     26862
+      macro avg       0.85      0.88      0.86     26862
+   weighted avg       0.93      0.93      0.93     26862
+
+----------------------------------------------------------
+Matriz de Confusión:
+[[ 2831   523   155]
+ [  664 20239   332]
+ [  116   163  1839]]
+----------------------------------------------------------

@@ -1,0 +1,151 @@
+{
+    "__sexo": [
+        {
+            "categoria": "femenino",
+            "cuenta": 43387,
+            "porcentaje_limpios": 56.49
+        },
+        {
+            "categoria": "masculino",
+            "cuenta": 33424,
+            "porcentaje_limpios": 43.51
+        }
+    ],
+    "__temperatura": [
+        {
+            "categoria": "normotermia",
+            "cuenta": 68060,
+            "porcentaje_limpios": 88.61
+        },
+        {
+            "categoria": "hipotermia",
+            "cuenta": 5733,
+            "porcentaje_limpios": 7.46
+        },
+        {
+            "categoria": "febrícula",
+            "cuenta": 1770,
+            "porcentaje_limpios": 2.3
+        },
+        {
+            "categoria": "fiebre",
+            "cuenta": 1248,
+            "porcentaje_limpios": 1.62
+        }
+    ],
+    "__pulso": [
+        {
+            "categoria": "normocardia",
+            "cuenta": 60295,
+            "porcentaje_limpios": 78.5
+        },
+        {
+            "categoria": "taquicardia",
+            "cuenta": 14727,
+            "porcentaje_limpios": 19.17
+        },
+        {
+            "categoria": "bradicardia",
+            "cuenta": 1789,
+            "porcentaje_limpios": 2.33
+        }
+    ],
+    "__pas": [
+        {
+            "categoria": "prehipertensión",
+            "cuenta": 27772,
+            "porcentaje_limpios": 36.16
+        },
+        {
+            "categoria": "normal",
+            "cuenta": 24611,
+            "porcentaje_limpios": 32.04
+        },
+        {
+            "categoria": "hipertensión",
+            "cuenta": 23463,
+            "porcentaje_limpios": 30.55
+        },
+        {
+            "categoria": "hipotensión",
+            "cuenta": 965,
+            "porcentaje_limpios": 1.26
+        }
+    ],
+    "__pad": [
+        {
+            "categoria": "normal",
+            "cuenta": 37408,
+            "porcentaje_limpios": 48.7
+        },
+        {
+            "categoria": "hipertensión",
+            "cuenta": 15379,
+            "porcentaje_limpios": 20.02
+        },
+        {
+            "categoria": "prehipertensión",
+            "cuenta": 15189,
+            "porcentaje_limpios": 19.77
+        },
+        {
+            "categoria": "hipotensión",
+            "cuenta": 8835,
+            "porcentaje_limpios": 11.5
+        }
+    ],
+    "__sat02": [
+        {
+            "categoria": "normal",
+            "cuenta": 75053,
+            "porcentaje_limpios": 97.71
+        },
+        {
+            "categoria": "hipoxemia leve",
+            "cuenta": 1351,
+            "porcentaje_limpios": 1.76
+        },
+        {
+            "categoria": "hipoxemia moderada",
+            "cuenta": 229,
+            "porcentaje_limpios": 0.3
+        },
+        {
+            "categoria": "hipoxemia severa",
+            "cuenta": 178,
+            "porcentaje_limpios": 0.23
+        }
+    ],
+    "__destino": [
+        {
+            "categoria": "Domicilio",
+            "cuenta": 70780,
+            "porcentaje_limpios": 92.15
+        },
+        {
+            "categoria": "Derivación",
+            "cuenta": 3389,
+            "porcentaje_limpios": 4.41
+        },
+        {
+            "categoria": "Hospitalización",
+            "cuenta": 2001,
+            "porcentaje_limpios": 2.61
+        },
+        {
+            "categoria": "Hospitalización domiciliaria",
+            "cuenta": 471,
+            "porcentaje_limpios": 0.61
+        },
+        {
+            "categoria": "Carabineros o PDI",
+            "cuenta": 152,
+            "porcentaje_limpios": 0.2
+        },
+        {
+            "categoria": "Otros",
+            "cuenta": 18,
+            "porcentaje_limpios": 0.02
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "pacientes": [
+        {
+            "ID": "U0003670130",
+            "__temperatura": 36.5,
+            "__pulso": 88.0,
+            "__pas": 102.0,
+            "__pad": 49.0,
+            "__sat02": 98.0,
+            "__destino": "Otros"
+        },
+        {
+            "ID": "U0003678475",
+            "__temperatura": 39.5,
+            "__pulso": 108.0,
+            "__pas": 102.0,
+            "__pad": 60.0,
+            "__sat02": 30.0,
+            "__destino": "Otros"
+        },
+        {
+            "ID": "U0003679758",
+            "sexo": "hombre",
+            "temperatura": 36.59,
+            "pulso": 80.0,
+            "pas": 128.0,
+            "pad": 57.0,
+            "satO2": 99.0,
+            "edad": 70,
+            "triage": "C3",
+            "destino": "Domicilio"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Derivación": {
+        "precision": 0.72,
+        "recall": 0.65,
+        "f1-score": 0.69,
+        "support": 3550
+    },
+    "Domicilio": {
+        "precision": 0.94,
+        "recall": 0.97,
+        "f1-score": 0.95,
+        "support": 21242
+    },
+    "Hospitalización": {
+        "precision": 0.72,
+        "recall": 0.63,
+        "f1-score": 0.67,
+        "support": 2070
+    },
+    "accuracy": 0.9,
+    "macro avg": {
+        "precision": 0.8,
+        "recall": 0.75,
+        "f1-score": 0.77,
+        "support": 26862
+    },
+    "weighted avg": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1-score": 0.9,
+        "support": 26862
+    }
+}
